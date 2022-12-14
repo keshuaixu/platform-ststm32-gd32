@@ -21,7 +21,7 @@ from platformio.managers.platform import PlatformBase
 
 IS_WINDOWS = sys.platform.startswith("win")
 
-class Ststm32Platform(PlatformBase):
+class Ststm32gdPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         board = variables.get("board")
